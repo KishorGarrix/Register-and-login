@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+    background-color: bisque;
+}
+.container-fluid{
+    width: 280px;
+    position: absolute;
+    top: 60%;
+    bottom: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-bottom: chartreuse;
+}
+.form-group{
+width: 100%;
+overflow: hidden;
+font-size: 20px;
+padding: 8px 0;
+margin:  8px 0;
+
+}
+/* .form-check{
+    top: 60%;
+
+} */
+/* .btn-btn-primary{
+    width: 100%;
+    background:slateblue;
+    border: 2px solid black;
+    color:black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+ */
+
+
+
+

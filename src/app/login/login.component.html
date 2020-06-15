@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+        
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text"  name="Name"  placeholder="User Name" [(ngModel)]=loggerModel.name>
+        </div>
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text"  name="password" placeholder="Password" [(ngModel)]=loggerModel.password>
+        </div>
+        
+        <button  class="btn-btn-primary" type="submit">Sign-in</button>
+        <!--  <a routerLink="/home" class="btn btn-link" type="submit"> sign-in</a> -->
+        </form>
+        
+            
+        </div>
+        
+    
+</body>
+</html>
